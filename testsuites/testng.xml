@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite parallel="tests" name="Suite">
+
+<listeners>
+<listener class-name = "com.TestComponents.Listeners"/>
+</listeners>
+
+  <test thread-count="5" name="SubmitOrderTest">
+    <classes>
+      <class name="com.beans.SubmitOrderTest"/>
+     
+    </classes>
+  </test> <!-- Test -->
+  
+   <test thread-count="5" name="ErrorValidationTest">
+    <classes>
+    <class name="com.beans.ErrorValidationTest"/>     
+    </classes>
+  </test> <!-- Test -->
+   
+  
+  
+</suite> <!-- Suite -->
